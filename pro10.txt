@@ -1,0 +1,2 @@
+nmap -sU -p 161 127.0.0.1
+snmpwalk -v1 -c public 127.0.0.1

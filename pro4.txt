@@ -1,0 +1,3 @@
+sudo gvm-start
+sudo gvm-check-setup
+https://127.0.0.1:9392

